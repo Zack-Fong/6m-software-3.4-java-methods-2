@@ -48,8 +48,8 @@ public class MethodsAssignment {
     static float getAverage(int numbers[]) {
         int total = 0;
 
-        for (int index = 0; index < numbers.length; index++) {
-            total += numbers[index];
+        for (int number : numbers) {
+            total += number;
         }
 
         return ((float) total / numbers.length);
